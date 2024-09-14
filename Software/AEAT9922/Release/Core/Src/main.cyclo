@@ -1,0 +1,15 @@
+../Core/Src/main.cpp:81:14:unsigned int parity(unsigned int)	1
+../Core/Src/main.cpp:91:19:long unsigned int spi_transfer16(uint8_t, uint8_t)	1
+../Core/Src/main.cpp:108:14:unsigned int spi_transfer24(uint8_t, uint8_t)	1
+../Core/Src/main.cpp:133:5:int setup_spi()	1
+../Core/Src/main.cpp:142:20:long unsigned int spi_read(uint8_t)	2
+../Core/Src/main.cpp:171:19:long unsigned int spi_write(uint8_t, uint8_t)	1
+../Core/Src/main.cpp:191:6:void write_resolution(uint8_t)	2
+../Core/Src/main.cpp:199:5:int esc_neutral()	1
+../Core/Src/main.cpp:216:5:int esc_forward(int)	1
+../Core/Src/main.cpp:231:5:int esc_backward(int)	1
+../Core/Src/main.cpp:246:14:unsigned int read_resolution()	1
+../Core/Src/main.cpp:251:14:unsigned int set_zero()	2
+../Core/Src/main.cpp:363:6:void SystemClock_Config()	3
+../Core/Src/main.cpp:288:5:int main()	8
+../Core/Src/main.cpp:556:6:void Error_Handler()	1
