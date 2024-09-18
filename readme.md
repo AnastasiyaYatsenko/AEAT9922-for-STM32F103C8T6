@@ -11,7 +11,7 @@ For communicating with encoder, SPI should be set in Full-Duplex Master mode wit
 SPI pins:
 
 <p align="center" width="100%">
-    <img width="33%" src="Images/encoder_pins.png" alt="SPI pins"> 
+    <img width="33%" src="Images/encoder_pins.jpg" alt="SPI pins"> 
 </p>
 
 AEAT9922 to STM32 connection scheme:
