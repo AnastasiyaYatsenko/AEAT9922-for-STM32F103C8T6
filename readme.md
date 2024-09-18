@@ -1,6 +1,13 @@
 # AEAT-9922
 
-## 1. Setup
+## 1. Wiring
+
+![Stm pins](Images/stm_pins.png)
+
+![Connection scheme](Images/9922_connect.png)
+
+
+## 2. Setup
 
 Since the MX_GPIO_Init() sets the SPI1_CS_Pin and SPI1_MSEL_Pin to GPIO_PIN_RESET, it is crucial to place
 
@@ -9,7 +16,7 @@ HAL_GPIO_WritePin(SPI1_MSEL_GPIO_Port, SPI1_MSEL_Pin, GPIO_PIN_SET);
 
 after the MX_GPIO_Init(), or replace setup_spi() to be called after MX_GPIO_Init()
 
-## 2. Functions
+## 3. Functions
 ### write_resolution(data)
 Writes resolution from 10 to 18
 
