@@ -1,10 +1,24 @@
 # AEAT-9922
 
 ## 1. Wiring
+For this project, STM32 pins are configured as following:
 
-![Stm pins](Images/stm_pins.png)
+<p align="center" width="100%">
+    <img width="33%" src="Images/stm_pins.png" alt="Stm pins"> 
+</p>
 
-![Connection scheme](Images/9922_connect.png)
+For communicating with encoder, SPI should be set in Full-Duplex Master mode with prescaler 16.
+SPI pins:
+
+<p align="center" width="100%">
+    <img width="33%" src="Images/encoder_pins.png" alt="SPI pins"> 
+</p>
+
+AEAT9922 to STM32 connection scheme:
+
+<p align="center" width="100%">
+    <img width="33%" src="Images/9922_connect.png" alt="Connection scheme"> 
+</p>
 
 
 ## 2. Setup
