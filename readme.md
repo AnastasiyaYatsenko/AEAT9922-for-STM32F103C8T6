@@ -32,7 +32,7 @@ after the MX_GPIO_Init(), or replace setup_spi() to be called after MX_GPIO_Init
 
 ## 3. Functions
 ### write_resolution(data)
-Writes resolution from 10 to 18
+Writes resolution from 10 to 18 bits
 
 ### read_resolution()
 Returns resolution
