@@ -7,11 +7,17 @@ For this project, STM32 pins are configured as following:
     <img width="33%" src="Images/stm_pins.png" alt="Stm pins"> 
 </p>
 
-For communicating with encoder, SPI should be set in Full-Duplex Master mode with prescaler 16.
+For communicating with encoder, SPI should be set in Full-Duplex Master mode.
 SPI pins:
 
 <p align="center" width="100%">
     <img width="33%" src="Images/encoder_pins.jpg" alt="SPI pins"> 
+</p>
+
+SPI setup:
+
+<p align="center" width="100%">
+    <img width="33%" src="Images/spi_setup.png" alt="SPI setup"> 
 </p>
 
 AEAT9922 to STM32 connection scheme:
